@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/tornado/language.xsd" languagecode="en" languagename="English" countrycode="gb">
+    <category name="wcf.user.option">
+        <item name="wcf.user.option.ESL"><![CDATA[ESL]]></item>
+        <item name="wcf.user.option.ESL.desc"><![CDATA[Enter your ESL ID here.]]></item>
+        <item name="wcf.user.option.ESEA"><![CDATA[ESEA]]></item>
+        <item name="wcf.user.option.ESEA.desc"><![CDATA[Enter your ESEA ID here.]]></item>
+        <item name="wcf.user.option.FACEIT"><![CDATA[FACEIT]]></item>
+        <item name="wcf.user.option.FACEIT.desc"><![CDATA[Enter your FACEIT Username here.]]></item>
+        <item name="wcf.user.option.DeSBL"><![CDATA[DeSBL]]></item>
+        <item name="wcf.user.option.DeSBL.desc"><![CDATA[Enter your DeSBL ID here.]]></item>
+        <item name="wcf.user.option.Esportal"><![CDATA[Esportal]]></item>
+        <item name="wcf.user.option.Esportal.desc"><![CDATA[Enter your Esportal Username here.]]></item>
+        <item name="wcf.user.option.CEVO"><![CDATA[ESL]]></item>
+        <item name="wcf.user.option.CEVO.desc"><![CDATA[Enter your CEVO ID here.]]></item>
+    </category>
+</language>

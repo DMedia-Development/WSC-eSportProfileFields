@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/tornado/userOption.xsd">
+    <import>
+        <options>
+            <option name="ESL">
+                <categoryname>profile.contact</categoryname>
+                <optiontype>text</optiontype>
+                <outputclass>wcf\system\option\user\ESLUserOptionOutput</outputclass>
+                <validationpattern>^$|^[0-9_]+$</validationpattern>
+                <searchable>0</searchable>
+                <visible>15</visible>
+                <editable>3</editable>
+            </option>
+
+            <option name="ESEA">
+                <categoryname>profile.contact</categoryname>
+                <optiontype>text</optiontype>
+                <outputclass>wcf\system\option\user\ESEAUserOptionOutput</outputclass>
+                <validationpattern>^$|^[0-9_]+$</validationpattern>
+                <searchable>0</searchable>
+                <visible>15</visible>
+                <editable>3</editable>
+            </option>
+
+            <option name="FACEIT">
+                <categoryname>profile.contact</categoryname>
+                <optiontype>text</optiontype>
+                <outputclass>wcf\system\option\user\FACEITUserOptionOutput</outputclass>
+                <validationpattern>^$|^[A-Za-z0-9 _.-]+$</validationpattern>
+                <searchable>0</searchable>
+                <visible>15</visible>
+                <editable>3</editable>
+            </option>
+
+            <option name="DeSBL">
+                <categoryname>profile.contact</categoryname>
+                <optiontype>text</optiontype>
+                <outputclass>wcf\system\option\user\DeSBLUserOptionOutput</outputclass>
+                <validationpattern>^$|^[0-9_]+$</validationpattern>
+                <searchable>0</searchable>
+                <visible>15</visible>
+                <editable>3</editable>
+            </option>
+            
+            <option name="Esportal">
+                <categoryname>profile.contact</categoryname>
+                <optiontype>text</optiontype>
+                <outputclass>wcf\system\option\user\EsportalUserOptionOutput</outputclass>
+                <validationpattern>^$|^[A-Za-z0-9 _.-]+$</validationpattern>
+                <searchable>0</searchable>
+                <visible>15</visible>
+                <editable>3</editable>
+            </option>
+            
+            <option name="CEVO">
+                <categoryname>profile.contact</categoryname>
+                <optiontype>text</optiontype>
+                <outputclass>wcf\system\option\user\CEVOUserOptionOutput</outputclass>
+                <validationpattern>^$|^[0-9_]+$</validationpattern>
+                <searchable>0</searchable>
+                <visible>15</visible>
+                <editable>3</editable>
+            </option>
+        </options>
+    </import>
+</data>

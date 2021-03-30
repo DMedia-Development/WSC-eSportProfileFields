@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="us.bossmod.wcf.esportprofiles" xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/tornado/package.xsd">
+    <packageinformation>
+        <packagename><![CDATA[eSports Profile Fields]]></packagename>
+        <packagedescription><![CDATA[Adds user profile fields for common eSports leagues.]]></packagedescription>
+        <packagename language="de"><![CDATA[E-Sport Profilfelder]]></packagename>
+        <packagedescription language="de"><![CDATA[Fügt Benutzerprofilfelder für gängige E-Sport Ligen hinzu.]]></packagedescription>
+        <packageurl><![CDATA[https://pluginstore.woltlab.com/file/2825]]></packageurl>
+        <version><![CDATA[1.0.4]]></version>
+        <date><![CDATA[2020-11-13]]></date>
+    </packageinformation>
+	
+    <authorinformation>
+        <author><![CDATA[DMedia]]></author>
+        <authorurl><![CDATA[https://www.woltlab.com/user/1468377]]></authorurl>
+    </authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="3.0.0"><![CDATA[com.woltlab.wcf]]></requiredpackage>
+	</requiredpackages>
+	
+	<excludedpackages>
+		<excludedpackage version="6.0.0 Alpha 1"><![CDATA[com.woltlab.wcf]]></excludedpackage>
+	</excludedpackages>
+
+	<compatibility>
+		<api version="2018"/>
+	</compatibility>
+   
+    <instructions type="install">
+        <instruction type="file" />
+        <instruction type="userOption" />
+		<instruction type="language" />
+    </instructions>
+	
+	<instructions type="update" fromversion="1.0.*">	
+		<instruction type="file" />
+		<instruction type="userOption" />
+		<instruction type="language" />
+	</instructions>
+</package>
