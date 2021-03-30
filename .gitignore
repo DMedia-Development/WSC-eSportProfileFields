@@ -13,3 +13,6 @@
 *.bat
 *.tar
 *.gz
+
+# Custom Folder
+.noupload/
