@@ -7,7 +7,7 @@ use wcf\data\user\option\UserOption;
 /*
 * @author      DMedia
 * @license     GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
-* @copyright   2018-2020
+* @copyright   2018-2021
 * @package     us.bossmod.wcf.esportprofiles
 */
 
