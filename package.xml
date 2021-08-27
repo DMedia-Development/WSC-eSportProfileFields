@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package name="us.bossmod.wcf.esportprofiles" xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/tornado/package.xsd">
+<package name="us.bossmod.wcf.esportprofiles" xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.4/package.xsd">
     <packageinformation>
         <packagename><![CDATA[eSports Profile Fields]]></packagename>
         <packagedescription><![CDATA[Adds user profile fields for common eSports leagues.]]></packagedescription>
         <packagename language="de"><![CDATA[E-Sport Profilfelder]]></packagename>
         <packagedescription language="de"><![CDATA[Fügt Benutzerprofilfelder für gängige E-Sport Ligen hinzu.]]></packagedescription>
         <packageurl><![CDATA[https://pluginstore.woltlab.com/file/2825]]></packageurl>
-        <version><![CDATA[1.0.5]]></version>
-        <date><![CDATA[2021-06-17]]></date>
+        <version><![CDATA[5.4.0]]></version>
+        <date><![CDATA[2021-08-27]]></date>
     </packageinformation>
 	
     <authorinformation>
@@ -37,5 +37,11 @@
 	
 	<instructions type="update" fromversion="1.0.4">
 		<void/>
+	</instructions>
+
+	<instructions type="update" fromversion="1.0.5">
+        <instruction type="file" />
+        <instruction type="userOption" />
+		<instruction type="language" />
 	</instructions>
 </package>

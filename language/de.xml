@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/tornado/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
+<language xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.4/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
     <category name="wcf.user.option">
         <item name="wcf.user.option.ESL"><![CDATA[ESL]]></item>
         <item name="wcf.user.option.ESL.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}ihre{/if} ESL ID ein.]]></item>
