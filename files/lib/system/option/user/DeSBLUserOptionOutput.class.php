@@ -7,9 +7,9 @@ use wcf\data\user\User;
 use wcf\data\user\option\UserOption;
 
 /*
-* @author      DMedia
+* @author      Moritz Dahlke (DMedia)
 * @license     GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
-* @copyright   2018-2021
+* @copyright   2018-2022
 * @package     us.bossmod.wcf.esportprofiles
 */
 class DeSBLUserOptionOutput implements IUserOptionOutput
