@@ -6,8 +6,8 @@
         <packagename language="de"><![CDATA[E-Sport Profilfelder]]></packagename>
         <packagedescription language="de"><![CDATA[Fügt Benutzerprofilfelder für gängige E-Sport Ligen hinzu.]]></packagedescription>
         <packageurl><![CDATA[https://pluginstore.woltlab.com/file/2825]]></packageurl>
-        <version><![CDATA[5.5.0]]></version>
-        <date><![CDATA[2022-07-07]]></date>
+        <version>5.5.0</version>
+        <date>2022-07-07</date>
     </packageinformation>
 
     <authorinformation>
