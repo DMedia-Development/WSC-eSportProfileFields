@@ -51,16 +51,10 @@
                 <visible>15</visible>
                 <editable>3</editable>
             </option>
-            
-            <option name="CEVO">
-                <categoryname>profile.contact</categoryname>
-                <optiontype>text</optiontype>
-                <outputclass>wcf\system\option\user\CEVOUserOptionOutput</outputclass>
-                <validationpattern>^$|^[0-9_]+$</validationpattern>
-                <searchable>0</searchable>
-                <visible>15</visible>
-                <editable>3</editable>
-            </option>
         </options>
     </import>
+
+    <delete>
+        <option name="CEVO" />
+    </delete>
 </data>

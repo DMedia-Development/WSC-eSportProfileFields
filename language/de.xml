@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/5.4/language.xsd" languagecode="de" languagename="Deutsch" countrycode="de">
-    <category name="wcf.user.option">
-        <item name="wcf.user.option.ESL"><![CDATA[ESL]]></item>
-        <item name="wcf.user.option.ESL.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}ihre{/if} ESL ID ein.]]></item>
-        <item name="wcf.user.option.ESEA"><![CDATA[ESEA]]></item>
-        <item name="wcf.user.option.ESEA.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}ihre{/if} ESEA ID ein.]]></item>
-        <item name="wcf.user.option.FACEIT"><![CDATA[FACEIT]]></item>
-        <item name="wcf.user.option.FACEIT.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}ihren{/if} FACEIT-Benutzernamen ein.]]></item>
-        <item name="wcf.user.option.DeSBL"><![CDATA[DeSBL]]></item>
-        <item name="wcf.user.option.DeSBL.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}ihre{/if} DeSBL ID ein.]]></item>
-        <item name="wcf.user.option.Esportal"><![CDATA[Esportal]]></item>
-        <item name="wcf.user.option.Esportal.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}ihren{/if} Esportal-Benutzernamen ein.]]></item>
-        <item name="wcf.user.option.CEVO"><![CDATA[CEVO]]></item>
-        <item name="wcf.user.option.CEVO.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}ihre{/if} CEVO ID ein.]]></item>
-    </category>
+    <import>
+        <category name="wcf.user.option">
+            <item name="wcf.user.option.ESL"><![CDATA[ESL]]></item>
+            <item name="wcf.user.option.ESL.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}ihre{/if} ESL ID ein.]]></item>
+            <item name="wcf.user.option.ESEA"><![CDATA[ESEA]]></item>
+            <item name="wcf.user.option.ESEA.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}ihre{/if} ESEA ID ein.]]></item>
+            <item name="wcf.user.option.FACEIT"><![CDATA[FACEIT]]></item>
+            <item name="wcf.user.option.FACEIT.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}ihren{/if} FACEIT-Benutzernamen ein.]]></item>
+            <item name="wcf.user.option.DeSBL"><![CDATA[DeSBL]]></item>
+            <item name="wcf.user.option.DeSBL.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deine{else}ihre{/if} DeSBL ID ein.]]></item>
+            <item name="wcf.user.option.Esportal"><![CDATA[Esportal]]></item>
+            <item name="wcf.user.option.Esportal.desc"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gib{else}Geben Sie{/if} hier {if LANGUAGE_USE_INFORMAL_VARIANT}deinen{else}ihren{/if} Esportal-Benutzernamen ein.]]></item>
+        </category>
+    </import>
+
+    <delete>
+        <item name="wcf.user.option.CEVO" />
+        <item name="wcf.user.option.CEVO.desc" />
+    </delete>
 </language>
