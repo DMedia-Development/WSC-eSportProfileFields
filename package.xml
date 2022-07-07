@@ -29,23 +29,7 @@
         <instruction type="language" />
     </instructions>
 
-    <instructions type="update" fromversion="1.0.*">	
-        <instruction type="file" />
-        <instruction type="userOption" />
-        <instruction type="language" />
-    </instructions>
-
     <instructions type="update" fromversion="1.0.4">
-        <void/>
-    </instructions>
-
-    <instructions type="update" fromversion="1.0.5">
-        <instruction type="file" />
-        <instruction type="userOption" />
-        <instruction type="language" />
-    </instructions>
-
-    <instructions type="update" fromversion="5.4.0">
         <instruction type="file" />
         <instruction type="fileDelete" />
         <instruction type="userOption" />
